@@ -1,7 +1,7 @@
 package com.example.andoid.forecastmvvm.ui
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import androidx.navigation.ui.NavigationUI
@@ -23,10 +23,6 @@ class MainActivity : AppCompatActivity() {
         bottom_nav.setupWithNavController(navController)
 
         NavigationUI.setupActionBarWithNavController(this, navController)
-
-
-
-
     }
 
     override fun onSupportNavigateUp(): Boolean {

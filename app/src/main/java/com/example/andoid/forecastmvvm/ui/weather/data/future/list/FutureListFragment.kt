@@ -1,11 +1,10 @@
 package com.example.andoid.forecastmvvm.ui.weather.data.future.list
 
-import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import com.example.andoid.forecastmvvm.R
 
 class FutureListFragment : Fragment() {
